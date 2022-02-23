@@ -1,0 +1,140 @@
+.head h4{
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.bodys{
+    margin-top: 40px;
+}
+
+.cardsCategory {
+    width: 80%;
+    height: 150px;
+    position: relative;
+    margin-bottom: 125px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
+  .imagesCategory {
+    width: 90%;
+    height: 142px;
+    position: absolute;
+    left: 3.5%;
+    right: auto;
+    z-index: 9;
+    filter: drop-shadow(0px 7px 5px rgba(0, 0, 0, 0.55));
+  }
+  .box2Category {
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    left: -4px;
+    margin-top: 85px;
+    background: #F8F8F8;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px 5px 20px 20px;
+    filter: drop-shadow(7px 8px 3px rgba(0, 0, 0, 0.55));
+  }
+
+  .box2Category .ket{
+    position: absolute;
+    bottom: 0;
+    /* margin-left: 6px; */
+    margin-top: 150px;
+
+  }
+
+  .box2Category .ket .title{
+    color: #4B5368;
+    font-size: 17px;
+    margin-left: 5%;
+    /* margin-bottom: 10%; */
+    /* margin-top: 200px; */
+  }
+
+  .box2 .ket .kategori{
+    margin-bottom: 0;
+    margin-left: 6px;
+  }
+
+
+
+  .box2Category .ket .kategori button{
+    background: #4E6DA9;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #FFFFFF;
+    border: none;
+    padding:0 12px 0px 12px;
+  }
+
+  .box2Category .ket .action{
+    margin-bottom:10px;
+    text-align: right;
+  }
+
+  .box2Category .ket .action .buttonDetail{
+    padding: 4px;
+    border: none;
+    background-color: #4B5368;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-right: 7px;
+  }
+
+  .box2Category .ket .action .buttonDetail .links{
+    color: white;
+    text-decoration: none;
+   }
+
+
+   .detail {
+    position: fixed;
+    padding: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 20px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    z-index: 10;
+    top: 10%;
+    left: 0%;
+    overflow-y: auto;
+    max-height: 80%;
+  }
+
+  .detail h4{
+    font-weight: bold;
+    margin-top: -7%;
+  }
+
+  .detail h4 .close{
+    float: right;
+    cursor: pointer;
+  }
+
+  .detail img{
+    width: 100%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .detail button{
+    border: none;
+    background-color: #BB8A51;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    color: #FFFFFF;
+    float: right;
+    margin-right: 20px;
+  }
+
+  .detail button .links{
+    color: white;
+    text-decoration: none;
+  }
+    
+    
+

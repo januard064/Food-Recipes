@@ -1,0 +1,16 @@
+.ingredients{
+    width: 85%;
+    margin-left: auto;
+    margin-right: 8.5%;
+    background-color: #F8F8F8;
+    margin-top: -30px;
+    margin-bottom: 20%;
+}
+
+.ingredients table{
+    margin-left: 6px;
+}
+
+.ingredients td{
+    margin-left: 10%;
+}
