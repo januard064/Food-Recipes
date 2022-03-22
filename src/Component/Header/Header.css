@@ -7,7 +7,12 @@
 .link{
     color: #FFFFFF;
     font-weight: bold;
-    
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.link:hover{
+    color: #AEAEAE;
 }
 
 .navbar{
