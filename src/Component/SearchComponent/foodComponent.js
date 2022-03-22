@@ -24,7 +24,7 @@ const FoodComponent = ({exploring}) => {
                     </div>
                     <div className="col-12 col-sm-12 col-md-12 action">
                         <button className="buttonIngredient" onClick={() => setTampil(!tampil)}>Ingredients<span> <Icon icon="bi:arrow-down-square" /></span></button>
-                        <button className="buttonDetail"><Link className="links" target="_blank" to={`/recipe/${exploring.idMeal}`}>Details<span> <Icon icon="bi:arrow-up-right-square" /></span></Link></button>
+                        <button className="buttonDetail"><Link className="links" to={`/recipe/${exploring.idMeal}`}>Details<span> <Icon icon="bi:arrow-up-right-square" /></span></Link></button>
                     </div>
                 </div>
             </div>
