@@ -42,7 +42,7 @@ const CategoryComponent =({categorys}) => {
                         <p>{categorys.strCategoryDescription}</p>
                         </div>
                     </div>
-                    <button > <Link target="_blank" className="links" to={`/categorys/${categorys.strCategory}`}>Explore</Link> </button>
+                    <button > <Link className="links" to={`/categorys/${categorys.strCategory}`}>Explore</Link> </button>
                 </div>
         }
         </>
