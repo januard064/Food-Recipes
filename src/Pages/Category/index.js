@@ -26,11 +26,11 @@ const Category=()=>{
     return(
         <>
         <div className="container">
-            <div className="col-12 col-sm-6 col-md-3" style={{ marginTop:30 }}>
+            {/* <div className="col-12 col-sm-6 col-md-3" style={{ marginTop:30 }}>
                 <Breadcrumb>
                     <BreadcrumbItem style={{ textDecoration:'none', color:'#4B5368'  }} active> Categories </BreadcrumbItem>
                 </Breadcrumb>
-            </div>
+            </div> */}
         </div>
         <div className="head"><h4>Search By Categories</h4></div>
         <div className="container">

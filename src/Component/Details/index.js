@@ -39,10 +39,10 @@ function Details({match}){
         <>  
         
             <div className="container bodys">
-                <Breadcrumb>
+                {/* <Breadcrumb>
                     <BreadcrumbItem> <Link style={{ textDecoration:'none', color:'#4B5368'  }} to={`/explore`}>Explore</Link> </BreadcrumbItem>
                     <BreadcrumbItem active> {detail.strMeal}  </BreadcrumbItem>
-                </Breadcrumb>
+                </Breadcrumb> */}
                 <h4>{detail.strMeal}</h4>
                 <div className="details">
                     <div className="row">

@@ -28,9 +28,9 @@ function Search(){
         
         <div className="container">
             <div className="col-12 search">
-                <Breadcrumb>
+                {/* <Breadcrumb>
                     <BreadcrumbItem style={{ color:'#4B5368' }} active>Explore</BreadcrumbItem>
-                </Breadcrumb>
+                </Breadcrumb> */}
                 <h4>Let's Do It</h4>
                 <div className="col-12 col-sm-12 col-md-6 offset-md-3">
                     <input id="search" onChange={(e) => setSearch(e.target.value)} />

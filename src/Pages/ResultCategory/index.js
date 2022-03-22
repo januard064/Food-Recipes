@@ -27,12 +27,12 @@ const ResultAreas = ({ match }) => {
     return(
         <>
         <div className="container">
-            <div className="col-12" style={{ marginTop:30 }}>
+            {/* <div className="col-12" style={{ marginTop:30 }}>
                 <Breadcrumb>
                     <BreadcrumbItem> <Link style={{ textDecoration:'none', color:'#4B5368'  }} to={`/category`}>Categories</Link> </BreadcrumbItem>
                     <BreadcrumbItem active>{categoryId}</BreadcrumbItem>
                 </Breadcrumb>
-            </div>
+            </div> */}
         </div>
          <div className="headCategory"><h4>Categories {categoryId} with {recipe.length} search result</h4></div>
          <div className="container">

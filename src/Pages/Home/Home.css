@@ -16,7 +16,7 @@
      background-color: #C4C4C4;
      width: 90%;
      height: 85%;
-     /* margin-left: 20%; */
+     margin-left: 15%;
      border-radius: 0 0 90px 90px;
  }
 
@@ -93,6 +93,27 @@
     font-size: 16px;
     text-align: center;
     color: #4B5368;
+ }
+
+ @media only screen and (max-width: 600px) {
+     
+    .text h1{
+       font-size: 30px;
+    }
+
+    .text p{
+        font-size: 12px;
+     }
+
+     .hero-shot .coverImage{
+         margin: 0 auto;
+     }
+
+     .body .cardtengah{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+     }
  }
  
 
