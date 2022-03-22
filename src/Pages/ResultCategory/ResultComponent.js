@@ -19,7 +19,7 @@ const ResultComponent = ({recipes}) => {
                             {recipes.strMeal}
                         </div>
                     <div className="col-12 col-sm-12 col-md-12 actionCategorys">
-                        <button className="buttonDetail"><Link target="_blank" className="links" to={`/recipe/${recipes.idMeal}`}>Details<span> <Icon icon="bi:arrow-up-right-square" /></span></Link></button>
+                        <button className="buttonDetail"><Link className="links" to={`/recipe/${recipes.idMeal}`}>Details<span> <Icon icon="bi:arrow-up-right-square" /></span></Link></button>
                     </div>
                     </div>
                 
