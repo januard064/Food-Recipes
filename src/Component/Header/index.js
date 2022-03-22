@@ -23,7 +23,7 @@ function Header(){
                             {/* <NavLink className="link" href="/home" style={{ color:'white' }}>
                                Home
                             </NavLink> */}
-                            <Link to={`/home`} className="link">Home</Link>
+                            <Link to={`/home`} className="link">Beranda</Link>
                         </NavItem>
                         <NavItem>
                             {/* <NavLink className="link" href="/explore"  style={{ color:'white' }}>
